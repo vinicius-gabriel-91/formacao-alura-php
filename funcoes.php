@@ -21,3 +21,8 @@
         }
         return $conta;
     }
+    
+    function alteraLetraMaiuscula(&$alteracao)
+    {
+        $alteracao = strtoupper($alteracao);
+    }
